@@ -1,66 +1,128 @@
 # All Star Tower Defense
 
-New loadstring below. Visit https://key.karmapanda.dev/ to obtain a key to use this script.
+NO LONGER BEING MAINTAINED. The source code has now been released under astd.lua (no guarantee that it works) If you use the source code, please make sure to credit me (KarmaPanda).
+
+## Script Features
+
+#### Main
 
 ```
-loadstring(game:HttpGet('https://script.karmapanda.dev/'))()
+Auto Unit Buff
+Auto Extreme
+Auto 2x Speed
+Auto 3x Speed
+Auto Replay
+Auto Next Story/Next Room
+Mini GUI
+Hide Script Button
 ```
 
-## Features
+#### Macro
 
-### Game
+```
+Profile Select
+Record Macro
+Playback Macro
+Previous Macro Step
+Next Macro Step
+Reset Macro Step
+New Name Macro Profile
+Create Macro Profile
+Delete Selected Macro Profile
+Clear Selected Macro Profile Data
+Recording Options
+Time Recording Offset
+Playback Options
+Money Tracking
+Playback Time Offset
+Magnitude
+Attempt Before Action Skip
+Action Skip Search Delay
+Macro Options
+Elapsed Time Mode (V1, V2)
+Summon Unit
+Sell Unit
+Upgrade Unit
+Unit Ability
+Auto Unit Ability
+Skip Wave
+Auto Skip Wave
+Auto Ability Blacklist Configuration
+Blacklisted Unit List
+Unit List
+Add Selected Unit from Unit List to Ability Blacklist
+Delete Selected Blacklisted Unit from Ability Blacklist
+```
 
-#### Automatic Erwin Buff
-- Automatically loops Erwin buff to buff unit's attacks constantly. (Works with 2x/3x speed modes)
+#### Lobby
 
-#### Automatic Merlin Buff
-- Same as Erwin buff but for Merlin which buffs unit's range.
+```
+Auto Join Game
+Auto Evolve Exp Unit
+Auto Join Settings
+Delay
+Mode
+Story Level
+Trial Level (W1)
+Raid Level (W1)
+Bout Level (W1)
+Infinite Map Selection
+Adventure Map Selection
+```
 
-#### Automatic Vote Extreme Mode
-- Automatically votes extreme mode when voting screen appears.
+#### Webhook
 
-#### Automatic 2x Speed
-- Automatically toggles 2x speed when in game.
+```
+Webhook Settings
+Webhook Link
+Discord ID
+Ping User
+Test Webhook
+Webhook Color
+Toggles
+Send Webhook on Game End
+Send Webhook after Exp Evolve
+```
 
-#### Time Stop Helper
-- Helps you place, upgrade, use ability, sells timestop unit with modifier key + click. Unit can be adjusted.
+#### Advanced Settings
 
-#### Automatic Time Stop
-- Automatically places time stop unit, upgrades, use ability, and sells the time stop unit along enemy path.
+```
+Auto Unit Buffing Settings
+Units on the Buffing Mode
+Units List
+Buffing Mode
+Attack Buff Check
+Range Buff Check
+Unit Has Multiple Abilities
+Multiple Abilities Name
+Ability Time
+Cycle Units
+Post Loop Delay
+Add Selected Unit from Unit List to Auto Buff
+Delete Selected Auto Buff Unit from Auto Buff
+Action Queue Settings
+Remote Action Delay
+Remote Refiring
+Refire Remote
+Pre Loop Delay
+Loop Delay
+```
 
-#### Automatic Tower Upgrade
-- Automatically upgrades towers with parameters that you can set.
-- Can adjust speed, delay, minimum money, upgrade wave.
+#### Miscellaneous
 
-#### Automatic Replay
-- Automatically toggles replay button during end game screen.
+```
+Game Settings
+Anti-AFK
+Disable 3D Rendering
+Hide Player Name
+World Teleports
+Teleport to World 1
+Teleport to World 2
+Reset
+Reset Settings to Default
+Auto Execute
+```
 
-#### Automatic Sell After Wave
-- Automatically sells all units after a set amount of waves.
+## Discord Server
 
-### Lobby
-
-#### Auto Join Game
-- Automatically joins Story, Infinite, or Farm mode when in lobby.
-- Optional setting allows you to automatically do next story mode and auto kick when inventory is full.
-
-#### Auto Evolve EXP
-- Automatically evolve exp units to EXP IV (6 star variant) using all EXP units in your inventory.
-
-### Macro
-
-#### Macro System
-- Ability to record/playback macros with system to save multiple profiles.
-
-### Webhooks
-
-#### Discord Webhook
-- Can send webhook when game ends, when evolving EXPs, when a unit is on the banner, and the current banner when it rejoins lobby.
-
-## Credits
-
-UI Library: https://v3rmillion.net/showthread.php?tid=1026479
-
-
-# Discord Server
 https://discord.gg/BrnQQGKbvE
